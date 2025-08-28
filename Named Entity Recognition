@@ -1,0 +1,36 @@
+# Named Entity Recognition (NER)
+
+This project focuses on building and comparing different deep learning models for Named Entity Recognition (NER), a key task in Natural Language Processing (NLP).
+
+---
+
+### 🚀 Key Features
+
+* **RNN Implementation**: Developed a sequence labeling model using Recurrent Neural Networks (RNNs) with LSTM and GRU layers.
+* **Transformer Model**: Implemented a Transformer-based model to handle long-range dependencies in the text sequences.
+* **Data Preprocessing**: Wrote custom scripts for token encoding, vocabulary creation, and efficient data loading for training.
+
+### 📁 Dataset
+
+* **Description**: A dataset of approximately 1696 sentences annotated with five different entity classes:
+    * `PER` (Person)
+    * `ORG` (Organization)
+    * `LOC` (Location)
+    * `MISC` (Miscellaneous)
+    * `O` (Outside of entity)
+
+### 📈 Results & Evaluation
+
+The models were evaluated to assess their performance on the sequence labeling task:
+* **Precision, Recall, F1-Score**: Metrics used to measure the accuracy of entity identification and classification.
+
+I analyzed and compared the training strategies and performance of the RNN-based models against the Transformer-based model to highlight the strengths of each architecture for this specific task.
+
+---
+
+### 🛠️ Technologies Used
+
+* Python
+* TensorFlow / PyTorch
+* Hugging Face Transformers (if you used it)
+* Pandas
